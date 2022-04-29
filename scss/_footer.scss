@@ -1,0 +1,17 @@
+#footer{
+	color: $secondaryColor;
+}
+
+#footer-nav{
+	font-family:$fontMain;
+	color:$secondaryColor;
+	width: $w-100;
+	text-align: center;
+	background-color:$mainColor;
+	ul li a{
+		color:$secondaryColor;
+		&:hover{
+			color:$keyColor;
+			}
+		}
+}

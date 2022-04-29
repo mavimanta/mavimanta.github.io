@@ -1,0 +1,18 @@
+
+$mainColor:rgb(0,0,0);
+$secondaryColor:rgb(255,255,255);
+$keyColor:rgb(205,127,127); 
+
+$w-100:100%;
+$w-50:50%;
+$w-25:25%;
+$h-500:500px;
+$m-10:10px;
+$m-3:3px;
+
+@mixin text($textSm,$color,$font,$background-color){
+	textSm:$textSm;
+	color:$color;
+	font:$font; 
+	background-color:$background-color;
+}

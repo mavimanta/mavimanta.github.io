@@ -1,0 +1,42 @@
+#background-color{
+	background-color: $mainColor;
+}
+
+@mixin font{
+	font-family: $fontMain;
+}
+.card-title{
+	@include font;
+}
+@mixin background{
+	@include font;
+	color: $secondaryColor;
+	background-color: $mainColor;
+}
+h1{
+	@include background;
+	font-size: $textMd; 
+}
+
+#donde-estamos{
+	@include background;
+}
+
+#error404{
+	font-size:$textXl;
+	font-family:$secondaryFont;
+}
+#envios{
+	@include background;
+}
+#metodos-de-pago{
+	@include background;
+}
+#datos-de-contacto{
+	@include background;
+	font-size: $textMd;
+}
+#tiendaOnline{
+	font-size: $textSm;
+}
+
